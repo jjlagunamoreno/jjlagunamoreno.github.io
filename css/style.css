@@ -243,8 +243,9 @@ button {
 .product-item {
     display: flex;
     align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    /* Increased padding for larger divs */
+    border-top: 1px solid #ddd;
 }
 
 .product-item:last-child {
@@ -252,8 +253,10 @@ button {
 }
 
 .product-image {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    /* Increased width for larger images */
+    height: 70px;
+    /* Increased height for larger images */
     object-fit: cover;
     margin-right: 15px;
 }
@@ -261,14 +264,31 @@ button {
 .product-info {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .product-name {
     font-weight: bold;
+    font-size: 1.1rem;
+    /* Increased font size for better readability */
 }
 
 .product-price {
     color: #888;
+    font-size: 1rem;
+    /* Increased font size for better readability */
+}
+
+.alergenos {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.alergeno-icon {
+    width: 25px;
+    /* Increased width for larger icons */
+    object-fit: cover;
 }
 
 /* Carousel Responsive Adjustments */
