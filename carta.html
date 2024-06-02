@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Restaurante - Carta</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Tu Restaurante Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carta.html">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Carta -->
+    <section id="carta" class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Nuestra Carta</h2>
+                <p>Explora nuestros deliciosos platos.</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Categoría 1 -->
+            <div class="col-md-4">
+                <h3 class="bg-light p-3">Entrantes</h3>
+                <ul class="list-unstyled">
+                    <li class="bg-white p-2 mb-2">Ensalada César - $5.99 <img src="images/dish1.webp"
+                            alt="Ensalada César" class="img-fluid"></li>
+                    <li class="bg-white p-2 mb-2">Sopa del día - $4.99 <img src="images/dish2.webp" alt="Sopa del día"
+                            class="img-fluid"></li>
+                </ul>
+            </div>
+            <!-- Categoría 2 -->
+            <div class="col-md-4">
+                <h3 class="bg-light p-3">Platos Principales</h3>
+                <ul class="list-unstyled">
+                    <li class="bg-white p-2 mb-2">Filete de ternera - $14.99 <img src="images/dish3.webp"
+                            alt="Filete de ternera" class="img-fluid"></li>
+                    <li class="bg-white p-2 mb-2">Pollo a la parrilla - $12.99 <img src="images/dish4.webp"
+                            alt="Pollo a la parrilla" class="img-fluid"></li>
+                </ul>
+            </div>
+            <!-- Categoría 3 -->
+            <div class="col-md-4">
+                <h3 class="bg-light p-3">Postres</h3>
+                <ul class="list-unstyled">
+                    <li class="bg-white p-2 mb-2">Tarta de queso - $6.99 <img src="images/dish5.webp"
+                            alt="Tarta de queso" class="img-fluid"></li>
+                    <li class="bg-white p-2 mb-2">Helado de vainilla - $4.99 <img src="images/dish6.webp"
+                            alt="Helado de vainilla" class="img-fluid"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <h3 class="bg-light p-3">Menú del Día</h3>
+                <p>Disfruta de nuestro menú especial del día por solo $10.99</p>
+                <a href="menu.pdf" class="btn btn-primary" target="_blank">Ver Menú del Día (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
