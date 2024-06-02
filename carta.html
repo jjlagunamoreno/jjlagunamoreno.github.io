@@ -51,92 +51,123 @@
         </div>
 
         <!-- Categoría Entrantes -->
-        <div class="category">
-            <h3 class="bg-light p-3 toggle-category" data-category="entrantes">Entrantes <i
-                    class="fas fa-angle-down"></i></h3>
-            <ul class="list-unstyled">
-                <li class="product-item">
-                    <img src="images/dish1.webp" alt="Ensalada César" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Ensalada César</span>
-                        <span class="product-price">$5.99</span>
-                    </div>
-                </li>
-                <li class="product-item">
-                    <img src="images/dish2.webp" alt="Sopa del día" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Sopa del día</span>
-                        <span class="product-price">$4.99</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="more-products d-none" id="entrantes">
-                <li class="product-item">
-                    <img src="images/dish7.webp" alt="Nuevo Plato 1" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Nuevo Plato 1</span>
-                        <span class="product-price">$7.99</span>
-                    </div>
-                </li>
-                <li class="product-item">
-                    <img src="images/dish8.webp" alt="Nuevo Plato 2" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Nuevo Plato 2</span>
-                        <span class="product-price">$8.99</span>
-                    </div>
-                </li>
-                <!-- Añade más productos aquí -->
-            </div>
+        <div class="category" onclick="toggleCategory('entrantes')">
+            <h3 class="bg-light p-3">Entrantes <i class="fas fa-angle-down toggle-category"></i></h3>
+        </div>
+        <ul class="list-unstyled">
+            <li class="product-item">
+                <img src="images/dish1.webp" alt="Ensalada César" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Ensalada César</span>
+                    <span class="product-price">$5.99</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish2.webp" alt="Sopa del día" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Sopa del día</span>
+                    <span class="product-price">$4.99</span>
+                </div>
+            </li>
+        </ul>
+        <div class="more-products d-none" id="entrantes">
+            <li class="product-item">
+                <img src="images/dish7.webp" alt="Nuevo Plato 1" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Nuevo Plato 1</span>
+                    <span class="product-price">$7.99</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish8.webp" alt="Nuevo Plato 2" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Nuevo Plato 2</span>
+                    <span class="product-price">$8.99</span>
+                </div>
+            </li>
         </div>
 
         <!-- Categoría Platos Principales -->
-        <div class="category">
-            <h3 class="bg-light p-3 toggle-category" data-category="platos-principales">Platos Principales <i
-                    class="fas fa-angle-down"></i></h3>
-            <ul class="list-unstyled">
-                <li class="product-item">
-                    <img src="images/dish3.webp" alt="Filete de ternera" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Filete de ternera</span>
-                        <span class="product-price">$14.99</span>
-                    </div>
-                </li>
-                <li class="product-item">
-                    <img src="images/dish4.webp" alt="Pollo a la parrilla" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Pollo a la parrilla</span>
-                        <span class="product-price">$12.99</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="more-products d-none" id="platos-principales">
-                <!-- Productos adicionales de la categoría Platos Principales -->
-            </div>
+        <div class="category" onclick="toggleCategory('platos-principales')">
+            <h3 class="bg-light p-3">Platos Principales <i class="fas fa-angle-down toggle-category"></i></h3>
+        </div>
+        <ul class="list-unstyled">
+            <li class="product-item">
+                <img src="images/dish3.webp" alt="Filete de ternera" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Filete de ternera</span>
+                    <span class="product-price">$14.99</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish4.webp" alt="Pollo a la parrilla" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Pollo a la parrilla</span>
+                    <span class="product-price">$12.99</span>
+                </div>
+            </li>
+        </ul>
+        <div class="more-products d-none" id="platos-principales">
+            <li class="product-item">
+                <img src="images/dish7.webp" alt="Nuevo Plato 1" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Nuevo Plato 3</span>
+                    <span class="product-price">$17.99</span>
+                </div>
+            </li>
+            
         </div>
 
         <!-- Categoría Postres -->
-        <div class="category">
-            <h3 class="bg-light p-3 toggle-category" data-category="postres">Postres <i class="fas fa-angle-down"></i>
-            </h3>
-            <ul class="list-unstyled">
-                <li class="product-item">
-                    <img src="images/dish5.webp" alt="Tarta de queso" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Tarta de queso</span>
-                        <span class="product-price">$6.99</span>
-                    </div>
-                </li>
-                <li class="product-item">
-                    <img src="images/dish6.webp" alt="Helado de vainilla" class="product-image">
-                    <div class="product-info">
-                        <span class="product-name">Helado de vainilla</span>
-                        <span class="product-price">$4.99</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="more-products d-none" id="postres">
-                <!-- Productos adicionales de la categoría Postres -->
-            </div>
+        <div class="category" onclick="toggleCategory('postres')">
+            <h3 class="bg-light p-3">Postres <i class="fas fa-angle-down toggle-category"></i></h3>
+        </div>
+        <ul class="list-unstyled">
+            <li class="product-item">
+                <img src="images/dish5.webp" alt="Tarta de queso" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Tarta de queso</span>
+                    <span class="product-price">$6.99</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish6.webp" alt="Helado de vainilla" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Helado de vainilla</span>
+                    <span class="product-price">$4.99</span>
+                </div>
+            </li>
+        </ul>
+        <div class="more-products d-none" id="postres">
+            <!-- Productos adicionales de la categoría Postres -->
+            <li class="product-item">
+                <img src="images/dish7.webp" alt="Postre 1" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Postre 1</span>
+                    <span class="product-price">$9.75</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish8.webp" alt="Postre 2" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Postre 2</span>
+                    <span class="product-price">$2.50</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish7.webp" alt="Postre 3" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Postre 3</span>
+                    <span class="product-price">$5.99</span>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="images/dish8.webp" alt="Postre 4" class="product-image">
+                <div class="product-info">
+                    <span class="product-name">Postre 4</span>
+                    <span class="product-price">$3.99</span>
+                </div>
+            </li>
         </div>
 
         <div class="row mt-4">
